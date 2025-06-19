@@ -11,9 +11,6 @@ pipeline {
                 echo "you enrolled into $course"
             }
         }
-    }
-
-    stages {
         stage('build') {
             steps{
                 echo "welcome to my first pipeline"
@@ -35,4 +32,5 @@ pipeline {
             }
         }
     }
-}
+
+    }
