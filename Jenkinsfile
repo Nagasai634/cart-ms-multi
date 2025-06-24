@@ -6,7 +6,8 @@ pipeline {
                 echo "built the code"
             }
         }
-        post {
+    }
+    post {
             success {
                 echo "if pipeline is success"
             }
@@ -16,6 +17,5 @@ pipeline {
             always {
                 echo "if pipeline is failure or sucsess doesn't matter print it"
             }
-        }
     }
 }
